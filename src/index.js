@@ -1,5 +1,3 @@
-import sayHi from './modules/sayHi';
-import sliderModule from './modules/slider';
+import timer from './modules/timer';
 
-sliderModule();
-sayHi('Куратор');
+timer('8 december 2023');
