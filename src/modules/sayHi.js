@@ -1,3 +1,3 @@
-export function sayHi(user) {
-    alert(`Привет, ${user}!`);
-  }
+export default function sayHi(user) {
+  console.log(`Привет, ${user}!`);
+}

@@ -1,5 +1,5 @@
-import {sayHi} from './modules/sayHi';
-import { sliderModule } from './modules/slider';
+import sayHi from './modules/sayHi';
+import sliderModule from './modules/slider';
 
 sliderModule();
-sayHi('Куратор'); 
+sayHi('Куратор');
