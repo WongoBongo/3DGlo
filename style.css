@@ -1,0 +1,14 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .greeting,
+  .current-day,
+  .current-time,
+  .days-to-new-year {
+    margin-bottom: 20px;
+  }
+  
