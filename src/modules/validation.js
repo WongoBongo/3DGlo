@@ -1,19 +1,19 @@
 const validation = () => {
   const validationNumber = (element) => {
     element.addEventListener('input', (event) => {
-      event.target.value = event.target.value.replace(/\D/g, ''); // Заменяет все символы, кроме цифр, на пустую строку
+      event.target.value = event.target.value.replace(/\D/g, ''); 
     });
   };
 
   const squareInput = document.querySelector('.calc-square');
   const countInput = document.querySelector('.calc-count');
   const dayInput = document.querySelector('.calc-day');
-  const phoneInput = document.querySelector('.form-phone'); // Выбираем поле ввода телефона
+  const phoneInput = document.querySelector('.form-phone'); 
 
   validationNumber(squareInput);
   validationNumber(countInput);
   validationNumber(dayInput);
-  validationNumber(phoneInput); // Применяем валидацию для поля ввода телефона
+  validationNumber(phoneInput); 
 
   document.addEventListener('DOMContentLoaded', () => {
     const form3 = document.getElementById('form3');
@@ -24,7 +24,7 @@ const validation = () => {
     };
 
     const validatePhone = (phone) => {
-      const regex = /^[0-9]+$/; // Регулярное выражение, разрешающее только цифры
+      const regex = /^[0-9]+$/; 
       return regex.test(phone);
     };
 
