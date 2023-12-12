@@ -20,4 +20,4 @@ const tabs = () => {
   });
 };
 
-export default activateTabs;
+export default tabs;

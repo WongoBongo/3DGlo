@@ -10,8 +10,6 @@ const menu = () => {
   };
 
   document.addEventListener('click', handleMenu);
-
-  // Предотвращаем закрытие меню при клике внутри него
   menu.addEventListener('click', (e) => {
     e.stopPropagation();
   });
