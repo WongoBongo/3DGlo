@@ -6,10 +6,12 @@ import tabs from './modules/tabs';
 import slider from './modules/slider';
 import addDots from './modules/addDots';
 import calc from './modules/calc';
+
 document.addEventListener('DOMContentLoaded', () => {
-  addDots();
-  timer('8 december 2023');
   menu();
+  addDots();
+  timer('18 december 2023');
+
   modal();
   validation();
   tabs();
